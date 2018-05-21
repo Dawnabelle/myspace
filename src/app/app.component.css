@@ -1,8 +1,13 @@
+/** {
+  border: 1px solid red;
+}*/
+
 .top-bar {
   background-color: blue;
   height: 130px;
   padding: 8px;
 }
+
 .top-bar p, label, input {
   display: inline;
   font-size: 8pt;
@@ -47,15 +52,16 @@
 }
 
 #profile-footer {
+  clear: left;
   margin-left: 20px;
+  margin-top: 10px;
   font-size: 8pt;
   position: inherit;
-  bottom: 2px;
 }
 
 .contact-tom {
   border: 1px solid royalblue;
-  height: 200px;
+  height: 160px;
   width: 290px;
 }
 
@@ -77,4 +83,12 @@
 .contact-buttons-right {
   position: absolute;
   left: 470px;
+}
+
+.myspace-url {
+  border: 1px solid royalblue;
+  font-size: 8pt;
+  margin-top: 20px;
+  line-height:3px;
+  padding-left: 10px;
 }
