@@ -193,7 +193,7 @@
   line-height: 2.4em;
 }
 
-#toms-blurb-title, #toms-friend-title {
+#toms-blurb-title, #toms-friend-title, #friend-comments-title {
   background-color: SandyBrown;
   padding: 2px;
 }
@@ -227,4 +227,39 @@
   margin: 6px;
   display: flex;
   flex-direction: column;
+}
+
+.toms-friends-comments {
+  font-size: 8pt;
+}
+
+.friend-comments-box {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.friend-comments-box-inner {
+  display: flex;
+}
+
+.friend-comments-box-inner-left {
+  min-width: 125px;
+  max-width: 125px;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  background-color: tomato;
+}
+
+.friend-comments-box-inner-right {
+  margin: 2px;
+  padding: 5px;
+  background-color: SandyBrown;
+  font-size: 10pt;
+  min-width: 255px
+}
+
+.friend-comments-box-inner-right br {
+  line-height: 2.2em;
 }
