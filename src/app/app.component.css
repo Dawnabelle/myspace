@@ -32,6 +32,10 @@
   background-color: royalblue;
 }
 
+.row {
+  display: flex;
+}
+
 .col {
   float: left;
 }
@@ -62,7 +66,7 @@
 .contact-tom {
   border: 1px solid royalblue;
   height: 160px;
-  width: 290px;
+  width: 350px;
 }
 
 .contact-tom p {
@@ -76,13 +80,13 @@
 }
 
 .contact-buttons-left {
-  left: 330px;
+  left: 200px;
   position: absolute;
 
 }
 .contact-buttons-right {
   position: absolute;
-  left: 470px;
+  left: 350px;
 }
 
 .myspace-url {
@@ -91,4 +95,136 @@
   margin-top: 20px;
   line-height:3px;
   padding-left: 10px;
+}
+
+#interests {
+  font-size: 8pt;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid royalblue;
+  margin-top: 20px;
+}
+
+.toms-interests{
+    background-color: royalblue;
+    color: white;
+    padding-left: 20px;
+    margin-top:0;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.8em;
+}
+
+.interest-box {
+  display: flex;
+}
+
+.interest-box p {
+  margin: 2px;
+  background-color: lightblue;
+}
+
+.interest-box .interest-title {
+  min-width: 100px;
+  background-color: lightsteelblue;
+  color: royalblue;
+  font-weight: bold;
+}
+
+.schools {
+  font-size: 8pt;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid royalblue;
+  margin-top: 20px;
+}
+.toms-school {
+  background-color: royalblue;
+  color: white;
+  padding-left: 20px;
+  margin-top:0;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.8em;
+}
+.schools-box {
+  display: flex;
+  align-content: stretch;
+}
+
+.schools-box p {
+  margin: 2px;
+  background-color: lightblue;
+}
+
+.schools-box .schools-title {
+  background-color: lightsteelblue;
+  color: royalblue;
+  min-width: 270px;
+ }
+
+ .school-years {
+   min-width: 70px;
+   text-align: center;
+ }
+#column-right {
+  padding: 20px;
+}
+ #toms-network {
+   border: 2px solid black;
+   font-weight: bold;
+   line-height: 2em;
+   font-size: 14px;
+   padding: 15px 60px;
+ }
+
+ .toms-blog {
+   font-size: 8pt;
+   line-height: 2.2em;
+ }
+
+.toms-blurbs {
+  font-size: 8pt;
+}
+
+.toms-blurbs br {
+  line-height: 2.4em;
+}
+
+#toms-blurb-title, #toms-friend-title {
+  background-color: SandyBrown;
+  padding: 2px;
+}
+
+.orange {
+  font-weight: bold;
+  color: tomato;
+}
+
+.green {
+  font-weight: bold;
+  color: green;
+}
+
+.red {
+  font-size: 11pt;
+  color: red;
+}
+
+.toms-friends {
+  font-size: 8pt;
+}
+
+.friend-space {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.friend-box {
+  width: 20%;
+  margin: 6px;
+  display: flex;
+  flex-direction: column;
 }
