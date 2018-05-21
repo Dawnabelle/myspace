@@ -1,0 +1,80 @@
+.top-bar {
+  background-color: blue;
+  height: 130px;
+  padding: 8px;
+}
+.top-bar p, label, input {
+  display: inline;
+  font-size: 8pt;
+  color: white;
+}
+
+.p-left {
+  margin-right: 60px;
+}
+
+.p-right {
+  margin-left: 190px;
+}
+
+.nav-bar {
+  font-size: 8pt;
+  height: 30px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: white;
+  background-color: royalblue;
+}
+
+.col {
+  float: left;
+}
+
+.profile-cols {
+  float: left;
+  margin-left: 6px;
+}
+
+.profile-cols p {
+  font-size: 8pt;
+  line-height: 3px;
+}
+
+#profile-info {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+#profile-footer {
+  margin-left: 20px;
+  font-size: 8pt;
+  position: inherit;
+  bottom: 2px;
+}
+
+.contact-tom {
+  border: 1px solid royalblue;
+  height: 200px;
+  width: 290px;
+}
+
+.contact-tom p {
+  background-color: royalblue;
+  margin-top: 0px;
+  color: white;
+}
+
+#contact-buttons {
+  list-style-type: none;
+}
+
+.contact-buttons-left {
+  left: 330px;
+  position: absolute;
+
+}
+.contact-buttons-right {
+  position: absolute;
+  left: 470px;
+}

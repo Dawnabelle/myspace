@@ -1,20 +1,58 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class="top-bar">
+  <p class="p-left">MySpace.com | Home</p>
+  <label for="the-web">The Web</label>
+  <input type="radio" name="the-web">
+  <label for="MySpace">MySpace</label>
+  <input type="radio" name="MySpace">
+  <input type="text" name="search-box">
+  <button type="button" name="search-button" class="search-button">Search</button>
+  <p class="p-right">Help | SignUp</p>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="nav-bar">
+  <p>Home | Browse | Search | Invite | Film | Mail | Blog | Favorites | Forum | Groups | Events | Videos | Music | Classifieds</p>
+</div>
+<div class="row">
+  <div class="col" id="left-col">
+    <div class="profile">
+      <div class="profile-cols">
+        <h3>Tom</h3>
+        <img src="./../assets/tom.jpg" alt="tom">
+      </div>
+      <div class="profile-cols" id="profile-info">
+        <p>"<strong>:-)</strong>"</p>
+        <br>
+        <p>Male</p>
+        <p>30 years old</p>
+        <p>Santa Monica,</p>
+        <p>CALIFORNIA</p>
+        <p>United States</p>
+        <br>
+        <p>Last Login:</p>
+        <p>4/22/2006</p>
+      </div>
+      <div id="profile-footer">
+        <p>View My: <strong>Pics | Videos</strong></p>
+      </div>
+    </div>
+    <div class="contact-tom">
+      <p>Contacting Tom</p>
+      <ul id="contact-buttons">
+        <div class="contact-buttons-left">
+          <li><img src="https://web.archive.org/web/20060423020134im_/http://x.myspace.com/images/sendMailIcon.gif" alt="envelope mailing"></li>
+          <img src="https://web.archive.org/web/20060423020134im_/http://x.myspace.com/images/addFriendIcon.gif" alt="add to friends">
+          <li><img src="https://web.archive.org/web/20060423020134im_/http://x.myspace.com/images/messagefriend.gif" alt="instant message"></li>
+          <li><img src="https://web.archive.org/web/20060423020134im_/http://x.myspace.com/images/icon_add_to_group.gif" alt="add to group"></li>
+        </div>
+        <div class="contact-buttons-right">
+          <li><img src="https://web.archive.org/web/20060423020134im_/http://x.myspace.com/images/forwardMailIcon.gif" alt="forward to friends"></li>
+          <li><img src="https://web.archive.org/web/20060423020134im_/http://x.myspace.com/images/addFavoritesIcon.gif" alt="add to favorites"></li>
+          <li><img src="https://web.archive.org/web/20060423020134im_/http://x.myspace.com/images/blockuser.gif" alt="block user"></li>
+          <li><img src="https://web.archive.org/web/20060423020134im_/http://x.myspace.com/images/icon_rank_user4.gif" alt="rank user"></li>
+        </div>
+      </ul>
+    </div>
+  </div>
+  <div class="col">
 
+  </div>
+</div>
